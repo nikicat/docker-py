@@ -1,0 +1,18 @@
+python-docker (0.3.1ppa1) trusty; urgency=medium
+
+  * Repackaged for Trusty
+
+ -- Nikolay Bryskin <devel.niks@gmail.com>  Tue, 03 Jun 2014 16:11:30 +0000
+
+python-docker (0.3.1-1) unstable; urgency=low
+
+  * Update to 0.3.1 upstream release
+  * Bump Standards-Version to 3.9.5
+
+ -- Tianon Gravi <admwiggin@gmail.com>  Mon, 05 May 2014 15:43:01 -0600
+
+python-docker (0.2.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #734679)
+
+ -- Paul Tagliamonte <paultag@debian.org>  Mon, 10 Feb 2014 22:13:24 -0500

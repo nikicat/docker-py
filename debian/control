@@ -1,0 +1,38 @@
+Source: python-docker
+Section: python
+Priority: optional
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Paul Tagliamonte <paultag@debian.org>,
+ Docker Packaging Team <docker-maint@lists.alioth.debian.org>,
+ Tianon Gravi <admwiggin@gmail.com>
+Build-Depends: debhelper (>= 9),
+ python-all (>= 2.6.6-3~),
+ python-setuptools,
+ python3-all (>= 3.1.2),
+ python3-setuptools
+Standards-Version: 3.9.5
+Homepage: https://github.com/dotcloud/docker-py/
+Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-docker/trunk/
+Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-docker/trunk/
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.3
+
+Package: python-docker
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Python wrapper to access docker.io's control socket
+ This package contains oodles of routines that aid in controling
+ docker.io over it's socket control, the same way the docker.io
+ client controls the daemon.
+ .
+ This package provides Python 2 module bindings only.
+
+Package: python3-docker
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Python 3 wrapper to access docker.io's control socket
+ This package contains oodles of routines that aid in controling
+ docker.io over it's socket control, the same way the docker.io
+ client controls the daemon.
+ .
+ This package provides Python 3 module bindings only.

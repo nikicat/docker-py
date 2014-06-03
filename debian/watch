@@ -1,0 +1,3 @@
+version=3
+https://pypi.python.org/packages/source/d/docker-py/ \
+    docker-py-(\d.*).tar.gz
